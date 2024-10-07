@@ -25,3 +25,9 @@ web
     </form>
 </body>
 </html>
+
+<a href="https://ice200626.github.io/web-006/">
+  <button>siguiente</button>
+</a>
+
+
