@@ -1,5 +1,5 @@
 
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -33,5 +33,27 @@
 <a href="https://ice200626.github.io/web-004/">
   <button>atras</button>
 </a>
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Fondo</title>
+    <style>
+        body {
+            background: url('gif 04.gif') no-repeat center center fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a mi página</h1>
+    <p>Este es un ejemplo de cómo añadir un fondo.</p>
+</body>
+</html>
+
+
 
 
