@@ -49,8 +49,7 @@
     </style>
 </head>
 <body>
-    <h1>Bienvenido a mi página</h1>
-    <p>Este es un ejemplo de cómo añadir un fondo.</p>
+    
 </body>
 </html>
 
