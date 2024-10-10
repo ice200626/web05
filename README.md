@@ -11,16 +11,20 @@
     <form action="/ruta_de_tu_servidor" method="POST">
         <label for="nombre">Nombre en la tarjeta:</label>
         <input type="text" id="nombre" name="nombre" required><br><br>
-
+     <p style="font-size: 25px; color: white; font-family: 'Arial Black ', sans-serif; text-align: left;"> Nombre
+    </p>
         <label for="tarjeta">Número de tarjeta:</label>
         <input type="text" id="tarjeta" name="tarjeta" required><br><br>
-
+     <p style="font-size: 25px; color: white; font-family: 'Arial Black ', sans-serif; text-align: left;"> Nombre
+    </p>
         <label for="fecha_expiracion">Fecha de expiración:</label>
         <input type="month" id="fecha_expiracion" name="fecha_expiracion" required><br><br>
-
+     <p style="font-size: 25px; color: white; font-family: 'Arial Black ', sans-serif; text-align: left;"> Nombre
+    </p>
         <label for="cvv">CVV:</label>
         <input type="text" id="cvv" name="cvv" required><br><br>
-
+     <p style="font-size: 25px; color: white; font-family: 'Arial Black ', sans-serif; text-align: left;"> Nombre
+    </p>
         <input type="submit" value="Pagar">
     </form>
 </body>
