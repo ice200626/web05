@@ -1,33 +1,25 @@
 
+<form action="/submit_payment" method="post">
+  <label for="cardName">Nombre en la tarjeta:</label>
+  <input type="text" id="cardName" name="cardName" required><br><br>
+  
+  <label for="cardNumber">Número de la tarjeta:</label>
+  <input type="text" id="cardNumber" name="cardNumber" required><br><br>
+  
+  <label for="expDate">Fecha de expiración (MM/AA):</label>
+  <input type="text" id="expDate" name="expDate" required><br><br>
+  
+  <label for="cvv">ciudad:</label>
+  <input type="text" id="cvv" name="cvv" required><br><br>
+  
+  <input type="submit" value="Pagar">
+</form>
 
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Pago</title>
-</head>
-<body>
-    <h2>Formulario de Pago</h2>
-    <form action="/ruta_de_tu_servidor" method="POST">
-        <label for="nombre">gmail</label>
-        <input type="text" id="nombre" name="nombre" required><br><br>
-     <p style="font-size: 25px; color: white; font-family: 'Arial Black ', sans-serif; text-align: left;">
-    </p>
-        <label for="tarjeta">Número de tarjeta:</label>
-        <input type="text" id="tarjeta" name="tarjeta" required><br><br>
-     <p style="font-size: 25px; color: white; font-family: 'Arial Black ', sans-serif; text-align: left;">
-        <label for="fecha_expiracion">fecha de nacimiento </label>
-        <input type="month" id="fecha_expiracion" name="fecha_expiracion" required><br><br>
-     <p style="font-size: 25px; color: white; font-family: 'Arial Black ', sans-serif; text-align: left;"> 
-    </p>
-        <label for="cvv">pais</label>
-        <input type="text" id="cvv" name="cvv" required><br><br>
-     <p style="font-size: 25px; color: white; font-family: 'Arial Black ', sans-serif; text-align: left;"> 
-    </p>
-        <input type="submit" value="Pagar">
-    </form>
-</body>
-</html>
+
+
+
+
+
 
 <a href="https://ice200626.github.io/web-006/">
   <button>siguiente</button>
