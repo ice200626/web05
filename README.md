@@ -46,7 +46,7 @@
     <title>Ejemplo de Fondo</title>
     <style>
         body {
-            background: url('gif 04.gif') no-repeat center center fixed;
+            background: url('fondo n1.jpg') no-repeat center center fixed;
             background-size: cover;
         }
     </style>
