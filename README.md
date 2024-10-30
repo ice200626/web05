@@ -25,21 +25,6 @@
 
 
 
-<a href="https://ice200626.github.io/web-006/">
-  <button>siguiente</button>
-</a>
-
-
-
-
-
-<a href="https://ice200626.github.io/web-004/">
-  <button>atras</button>
-</a>
-
-
-
-
 
 
 <html lang="es">
@@ -61,4 +46,42 @@
 
 
 
-
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botones con Hipervínculo</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Fondo */
+        }
+        .btn {
+            display: inline-block;
+            font-size: 20px; /* Tamaño del texto */
+            padding: 15px 30px; /* Espacio interno (padding) */
+            color: white; /* Color del texto */
+            background-color: #007BFF; /* Color de fondo */
+            border: none;
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer;
+            text-decoration: none; /* Quitar subrayado del enlace */
+            margin: 10px; /* Espacio entre botones */
+            text-align: center; /* Centrar texto dentro del botón */
+        }
+        .btn:hover {
+            background-color: #0056b3; /* Color de fondo al pasar el ratón (hover) */
+        }
+    </style>
+</head>
+<body>
+    <a href="https://ice200626.github.io/web-006/" class="btn">pagar</a>
+    <a href="https://ice200626.github.io/web-004/">atras</a>
+ 
+</body>
+</html>
