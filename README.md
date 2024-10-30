@@ -12,7 +12,6 @@
   <label for="cvv">ciudad:</label>
   <input type="text" id="cvv" name="cvv" required><br><br>
   
-  <input type="submit" value="Pagar">
 </form>
 
 
@@ -66,7 +65,7 @@
             font-size: 20px; /* Tamaño del texto */
             padding: 15px 30px; /* Espacio interno (padding) */
             color: white; /* Color del texto */
-            background-color: #007BFF; /* Color de fondo */
+            background-color:  #f0f0f0; /* Color de fondo */
             border: none;
             border-radius: 5px; /* Bordes redondeados */
             cursor: pointer;
@@ -75,7 +74,7 @@
             text-align: center; /* Centrar texto dentro del botón */
         }
         .btn:hover {
-            background-color: #0056b3; /* Color de fondo al pasar el ratón (hover) */
+            background-color: #f0f0f0; /* Color de fondo al pasar el ratón (hover) */
         }
     </style>
 </head>
